@@ -1,3 +1,13 @@
+---
+id: 20261029-logs-readme
+title: Defense.Logs — 세션 로그
+summary: Defense.Logs 의 prompts · sessions 폴더를 훅이 쓰는 방식을 적은 문서로, UserPromptSubmit · Stop · SessionEnd 훅과 log_prompt.py · digest_session.py 의 연결, settings.json 훅 등록 설정, 수동 실행법, 내부 추론이 전사에 거의 없다는 한계를 담는다.
+doc_type: guide
+status: final
+lifecycle: living
+created: 2026-10-29
+updated: 2026-10-29
+---
 # Defense.Logs — 세션 로그
 
 Claude Code 훅이 쓰는 저장소다(G-05). 사람과 세션은 `prompts/` · `sessions/` 를 손으로 고치지 않는다. 토큰 비용은 0 — 훅은 모델 밖에서 돈다. 스크립트 정본은 `../../../_공통/_도구/`.
